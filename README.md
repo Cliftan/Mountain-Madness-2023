@@ -1,7 +1,7 @@
 # Mountain-Madness-2023
 
 ## Run Instructions:
-stuff here
+pip install requests
 
 ## Developers:
 **Alex Jiang**  
