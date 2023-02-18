@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(rgba(0, 49, 51,0.8),rgba(0, 49, 51,0.8)), url(images/MtnBg.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    font-size: 50px;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+
+  #try-again {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #return-home {
+    background-color: rgb(207, 207, 207);
+    color: rgb(81, 81, 81);
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    bottom: 55px;
+    left: 545px;
+  }
