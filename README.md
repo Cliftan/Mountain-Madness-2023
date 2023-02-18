@@ -11,7 +11,7 @@ SFU Email: aja102@sfu.ca
 SFU Email: cht14@sfu.ca
 
 **Jake Choi**  
-SFU Email:
+SFU Email: jyc50@sfu.ca
 
 **Leo Zhi**  
 SFU Email: ljz@sfu.ca
