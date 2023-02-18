@@ -17,4 +17,4 @@ SFU Email:
 SFU Email:
 
 **Max**  
-SFU Email:
+SFU Email: mla387@sfu.ca
