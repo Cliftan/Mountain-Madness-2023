@@ -45,7 +45,7 @@ def defineWord(term):
         theDef = theDef.replace(word, "*" * len(word))
         theExmpl = theExmpl.replace(word, "*" * len(word))
 
-    response = (f"\nThe definition of '{term}':\n{theDef}\n\nFor example:\n{theExmpl}")
+    response = f"\nThe definition of '{term}':\n{theDef}\n\nFor example:\n{theExmpl}"
 
     return response
 
