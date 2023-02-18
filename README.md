@@ -4,8 +4,8 @@
 stuff here
 
 ## Developers:
-**Alex**  
-SFU Email:
+**Alex Jiang**  
+SFU Email: aja102@sfu.ca
 
 **Clifton Tan**  
 SFU Email: cht14@sfu.ca
@@ -16,5 +16,5 @@ SFU Email:
 **Leo Zhi**  
 SFU Email:
 
-**Max**  
+**Max "skin" Liu**  
 SFU Email: mla387@sfu.ca
