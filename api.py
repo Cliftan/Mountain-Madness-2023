@@ -32,3 +32,7 @@ if definition["list"]:
     print(f"Definition of {term}: {definition['list'][0]['definition']}")
 else:
     print(f"No definition found for {term}")
+
+
+# check and censor for bad words
+badwords = []
