@@ -1,4 +1,5 @@
 # Mountain-Madness-2023
+We made a website that you can search slang words and get the definition and an example of it
 
 ## Run Instructions:
 stuff here
