@@ -33,3 +33,6 @@ if definition["list"]:
 else:
     print(f"No definition found for {term}")
 
+
+# check and censor for bad words
+badwords = []

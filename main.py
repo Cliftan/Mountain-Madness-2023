@@ -1,5 +1,4 @@
 from Website import create_app
-import "api.py"
 
 app = create_app()
 
