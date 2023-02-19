@@ -30,12 +30,3 @@ SFU Email: ljz@sfu.ca
 
 **Max Liu**  
 SFU Email: mla387@sfu.ca
-
-## CSSS
-Link to Github Repo: https://github.com/Cliftan/Mountain-Madness-2023
-
-Interest In Presenting: Yes
-
-Post on sfucsss.org: Yes
-
-Does your group have a woman, woman-identifying, or non-binary member: No
