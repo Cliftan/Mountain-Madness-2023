@@ -31,7 +31,7 @@ def scraper(searchTerm):
         definition = ""
         example = ""
         for j in range(len(temp)):
-            if temp[j] == i.strip("\n"):
+            if temp[j] == i.strip("\n") or temp[j] == (i.strip("\n")+"."):
                 temp[j] = "****"
             definition += temp[j]+" "
         for k in range(len(temp2)): 
@@ -42,5 +42,3 @@ def scraper(searchTerm):
         k = 0
 
     return definition,example
-
-print(scraper("aslkdjlaskjdlaskjdlaskjd"))
