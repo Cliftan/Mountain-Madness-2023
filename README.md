@@ -17,5 +17,5 @@ SFU Email: jyc50@sfu.ca
 **Leo Zhi**  
 SFU Email: ljz@sfu.ca
 
-**Max "skin" Liu**  
+**Max Liu**  
 SFU Email: mla387@sfu.ca
