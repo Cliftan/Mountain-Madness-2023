@@ -16,16 +16,17 @@ def home():
         global example
         term = search_term
         list_scrape = scraper(term)
+        if list_scrape == 0:
+            return redirect('/error')
         definition = list_scrape[0]
         example = list_scrape[1]
         return redirect('/result')
-    else:
-        print("WHAT THE FUCK " + request.method)
     return render_template("Search.html")
 
 @views.route('/error', methods=['GET', 'POST'])
 def error():
-    return render_template("error.html")
+    global term
+    return render_template("error.html", term=term)
 
 @views.route('/result', methods=['GET', 'POST'])
 def result():
