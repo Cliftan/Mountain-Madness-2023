@@ -1,6 +1,7 @@
 from flask import Blueprint, render_template, request
 from flask import Flask, redirect
 from scrape import scraper
+from api import defineWord
 
 views = Blueprint('views', __name__)
 term = ""
@@ -15,7 +16,7 @@ def home():
         global definition
         global example
         term = search_term
-        list_scrape = scraper(term)
+        list_scrape = defineWord(term)
         if list_scrape == 0:
             return redirect('/error')
         definition = list_scrape[0]

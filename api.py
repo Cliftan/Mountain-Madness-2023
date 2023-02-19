@@ -34,8 +34,8 @@ def defineWord(term):
         theDef = definition['list'][0]['definition'].replace("[", "").replace("]", "").lower()
         theExmpl = definition['list'][0]['example'].replace("[", "").replace("]", "").lower()
     else:
-        print(f"No definition found for {term}")
-        exit()
+        error = 0
+        return error
 
     # check and censor for bad words
     badWordsTxt = open("badWords.txt")
@@ -47,6 +47,4 @@ def defineWord(term):
 
     response = f"\nThe definition of '{term}':\n{theDef}\n\nFor example:\n{theExmpl}"
 
-    return response
-
-# print(defineWord("rizz"))
+    return theDef, theExmpl
