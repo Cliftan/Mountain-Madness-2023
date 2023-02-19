@@ -1,6 +1,5 @@
 from flask import Blueprint, render_template, request
-from flask import Flask, redirect
-from scrape import scraper
+from flask import redirect
 from api import defineWord
 
 views = Blueprint('views', __name__)
