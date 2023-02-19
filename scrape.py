@@ -13,12 +13,12 @@ def scraper(searchTerm):
         i.replace_with('\n')
 
     results = soup.find(id = "ud-root")
-    definition = results.find("div", class_ = "break-words meaning mb-4")   
+    definition = results.find("div", class_ = "break-words meaning mb-4") 
+    if definition == None:
+        return 0
     definition = definition.text
 
-    if definition == None:
-        print("no definition found for this term")
-        exit()
+
 
     example = results.find("div", class_ = "break-words example italic mb-4")
     example = example.text
@@ -42,3 +42,5 @@ def scraper(searchTerm):
         k = 0
 
     return definition,example
+
+print(scraper("aslkdjlaskjdlaskjdlaskjd"))
