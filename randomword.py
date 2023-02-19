@@ -27,21 +27,30 @@ def randomWord():
         example = ""
         word = ""
         for j in range(len(temp)):
-            if temp[j] == i.strip("\n") or temp[j] == (i.strip("\n")+"."):
-                temp[j] = "****"
+            if i.strip("\n,.").lower() in temp[j].lower():
+                tempA = ""
+                for q in range(len(temp[j])):
+                    tempA += "*"
+                temp[j] = tempA
             definition += temp[j]+" "
-        for k in range(len(temp2)): 
-            if temp2[k] == i.strip("\n") or temp2[k] == (i.strip("\n")+"."):
-                temp2[k] = "****"
+        for k in range(len(temp2)):  
+            if i.strip("\n,.").lower() in temp2[k].lower():
+                temp2A = ""
+                for w in range(len(temp2[k])):
+                    temp2A += "*"
+                temp2[k] = temp2A
             example += temp2[k]+" "
         for l in range(len(temp3)):
-            if temp3[l] == i.strip("\n") or temp3[l] == (i.strip("\n")+"."):
-                temp3[l] = "****"
-            word += temp3[l]
+            if i.strip("\n,.").lower() in temp2[k].lower():
+                temp2A = ""
+                for w in range(len(temp2[k])):
+                    temp2A += "*"
+                temp2[k] = temp2A
+            word += temp2[k]+" "     
+
         j = 0
         k = 0
         l = 0
 
     return (word, definition, example)
-
 
