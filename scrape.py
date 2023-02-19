@@ -31,12 +31,18 @@ def scraper(searchTerm):
         definition = ""
         example = ""
         for j in range(len(temp)):
-            if temp[j] == i.strip("\n") or temp[j] == (i.strip("\n")+"."):
-                temp[j] = "****"
+            if i.strip("\n,.").lower() in temp[j].lower():
+                tempA = ""
+                for q in range(len(temp[j])):
+                    tempA += "*"
+                temp[j] = tempA
             definition += temp[j]+" "
         for k in range(len(temp2)): 
-            if temp2[k] == i.strip("\n"):
-                temp2[k] = "****"
+            if i.strip("\n,.").lower() in temp2[k].lower():
+                temp2A = ""
+                for w in range(len(temp2[k])):
+                    temp2A += "*"
+                temp2[k] = temp2A
             example += temp2[k]+" "
         j = 0
         k = 0
