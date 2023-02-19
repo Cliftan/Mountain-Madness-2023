@@ -7,15 +7,7 @@ body {
     font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
     text-align: center;
     padding: 50px;
-  }
-
-  #try-again {
-    background-color: rgb(255, 255, 255);
-    color: white;
-    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-    font-size: 30px;
-    text-align: center;
-    padding: 20px;
+    animation: fadeup 1.9s;
   }
 
   #return-home {
@@ -33,4 +25,25 @@ body {
     position: relative;
     bottom: 55px;
     left: 545px;
+    animation: fadedown 1.9s;
   }
+
+  @keyframes fadeup {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+@keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+}
