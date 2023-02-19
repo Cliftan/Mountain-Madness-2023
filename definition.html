@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word Definition</title>
+    <title>Return Button</title>
+	<style>
+        @keyframes fadeup {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+
+@keyframes fadedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+        
+
+        .background {
+            position: relative;
+
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-image: linear-gradient(rgba(0, 49, 51,0.8),rgba(0, 49, 51,0.8)), url(images/MtnBg.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+		body {
+			font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 10px;
+		}
+
+		h1 {
+			font-size: 60px;
+			margin-bottom: 10px;
+            color: rgb(217, 233, 152);
+            opacity: 1;
+
+            animation: fadedown 1.3s;
+		}
+
+
+		.definition {
+            color: white;
+			padding: 40px;
+			margin-bottom: 20px;
+            animation: fadeup 1.3s;
+		}
+
+		.definition dt {
+            color: white;
+			font-weight: bold;
+			font-size: 24px;
+			margin-bottom: 10px;
+            animation: fadeup 1.9s;
+		}
+
+		.definition dd {
+            color: white;
+			margin-left: 0;
+			font-size: 18px;
+			margin-bottom: 10px;
+            animation: fadeup 2.5s
+		}
+
+        #return-home {
+            background-color: rgb(207, 207, 207);
+            color: rgb(81, 81, 81);
+            font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+            font-size: 20px;
+            text-align: center;
+            padding: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            border: 0px;
+            border-radius: 40px;
+            cursor: pointer;
+            position: relative;
+            top: 400px;
+            left: 800px;
+
+            background-position: center;
+
+            animation: fadeup 3.2s;
+        }
+
+
+	</style>
+</head>
+<body>
+
+
+
+
+    <div class="background">
+
+        <button id="return-home" onclick="window.location.href='/'">Return to search</button>
+
+	<div class="container">
+		<h1>Searched Word</h1>
+
+		<div class="definition">
+			<dt>definition </dt>
+			<dd>Definition: i have no clue how to input whatever the searched word is here.</dd>
+		</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
