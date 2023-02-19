@@ -1,9 +1,7 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template
 
 views = Blueprint('views', __name__)
 
-@views.route('/', methods=["GET", "POST"])
+@views.route('/')
 def home():
-    if request.method == "POST":
-        search_term = request.form.get("search_term")
     return render_template("Search.html")
