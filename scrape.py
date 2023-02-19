@@ -20,7 +20,7 @@ def scraper(searchTerm):
     example = results.find("div", class_ = "break-words example italic mb-4")
     example = example.text
     
-    finalResult = (definition + "\n" + example)
-    return finalResult
+    
+    return definition, example
 
 
