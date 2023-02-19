@@ -42,5 +42,3 @@ def scraper(searchTerm):
         k = 0
 
     return definition,example
-
-print(scraper("aslkdjlaskjdlaskjdlaskjd"))
