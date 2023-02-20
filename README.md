@@ -1,6 +1,6 @@
 # Mountain-Madness-2023
 ### Project Description:
-This repository features a web application called Slangtionary. The goal of this application is to define slang words requested by the user. To achieve this, we used HTML for the frontend formatting, Urban Dictionary's API to define different slang terms, and Flask for the backend.
+This repository features a web application called Slangtionary. The goal of this application is to define slang words requested by the user and return them family-friendly. To achieve this, we used HTML for the frontend formatting, Urban Dictionary's API to define different slang terms, and Flask for the backend.
 
 ### How to Run:
 **1. Install libraries:**
