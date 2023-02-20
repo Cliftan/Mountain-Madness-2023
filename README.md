@@ -30,3 +30,9 @@ SFU Email: ljz@sfu.ca
 
 **Max Liu**  
 SFU Email: mla387@sfu.ca
+
+### Video
+
+
+https://user-images.githubusercontent.com/118387748/219985019-1031b137-6327-40a3-a343-50b014b86689.mp4
+
