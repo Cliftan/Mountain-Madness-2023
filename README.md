@@ -5,8 +5,8 @@ This repository features a web application called Slangtionary. The goal of this
 ### How to Run:
 **1. Install libraries:**
 ```bash 
--pip install Flask
--pip install requests
+pip install Flask
+pip install requests
 ```
 **2. Go to main.py and click run:**
 ![Screenshot 2023-02-19 061319](https://user-images.githubusercontent.com/118387748/219953761-14bab756-4fda-4041-bda3-080edd495819.png)
